@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KAIOWÁ — Companhia de Simulação Tática</title>
+<meta name="description" content="Identidade institucional de simulação tática para os ambientes Arma 3 e FiveM.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- LOADING SCREEN -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-mark">KW</div>
+  <div class="loader-bar"><span></span></div>
+</div>
+
+<!-- WATERMARK BACKGROUND -->
+<div class="bg-watermark" aria-hidden="true"
+     style="background-image:url('https://res.cloudinary.com/ratgintk/image/upload/v1794173387/9A7ZFRAAAABklEQVQDAPCrviJKDw2aAAAAAElFTkSuQmCC.png')"></div>
+
+<!-- NAVBAR -->
+<header class="navbar" id="navbar">
+  <a href="#" class="navbar-logo">KAIOWÁ</a>
+  <nav class="navbar-links">
+    <a href="#overview">About</a>
+    <a href="#divisions">Divisions</a>
+    <a href="#careers">Careers</a>
+  </nav>
+  <div class="navbar-actions">
+    <a href="/login" class="btn-members">Members Access</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="sideMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- SIDE MENU -->
+<div class="side-menu" id="sideMenu" aria-hidden="true">
+  <div class="side-menu-overlay" id="menuOverlay"></div>
+  <nav class="side-menu-panel" role="dialog" aria-label="Menu de navegação">
+    <button class="side-menu-close" id="menuClose" aria-label="Fechar menu">×</button>
+    <ol class="side-menu-list">
+      <li style="--i:0"><a href="#top">Home</a></li>
+      <li style="--i:1"><a href="#overview">About</a></li>
+      <li style="--i:2"><a href="#divisions">Divisions</a></li>
+      <li style="--i:3"><a href="#careers">Careers</a></li>
+      <li style="--i:4"><a href="/faq">FAQ</a></li>
+      <li style="--i:5"><a href="/login">Members Access</a></li>
+    </ol>
+  </nav>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-wm" aria-hidden="true"
+         style="background-image:url('https://res.cloudinary.com/ratgintk/image/upload/v1794173422/gyg8UTXksAAAAASUVORK5CYII.png')"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Simulação Tática · Arma 3 / FiveM</p>
+      <h1 class="hero-title">
+        <span class="line">DISCIPLINA</span>
+        <span class="line">É DOUTRINA</span>
+      </h1>
+      <p class="hero-sub">Um grupo de simulação construído sobre hierarquia, continuidade e identidade coletiva — não sobre efeito.</p>
+      <a href="#overview" class="hero-cta">Conhecer a companhia</a>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Role para explorar</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- COMPANY OVERVIEW -->
+  <section class="overview" id="overview">
+    <div class="overview-text reveal">
+      <p class="section-label">Apresentação</p>
+      <h2>Uma estrutura, <br>não um personagem.</h2>
+      <p class="body-lg">A KAIOWÁ nasceu da ideia de que simulação militar séria exige mais do que uma farda e um nome em comum. Exige função, cadeia de comando e memória institucional — mesmo quando o cenário é fictício.</p>
+      <div class="overview-pillars">
+        <div><h3>Missão</h3><p>Sustentar um ambiente de simulação coerente, onde cada integrante entende seu papel dentro de uma estrutura maior.</p></div>
+        <div><h3>Visão</h3><p>Ser reconhecida, dentro das comunidades de Arma 3 e FiveM, como referência em organização e consistência.</p></div>
+        <div><h3>Valores</h3><p>Hierarquia, responsabilidade, continuidade histórica e respeito entre os integrantes.</p></div>
+      </div>
+    </div>
+    <div class="overview-image reveal">
+      <img src="https://res.cloudinary.com/ratgintk/image/upload/f_auto,q_auto/Kaiowa_30" alt="Operação de simulação KAIOWÁ em ambiente tático" loading="lazy">
+    </div>
+  </section>
+
+  <!-- CORE DIVISIONS -->
+  <section class="divisions" id="divisions">
+    <p class="section-label center">Core Divisions</p>
+    <div class="divisions-grid">
+      <article class="division reveal" data-division="arma3">
+        <div class="division-media"></div>
+        <div class="division-body">
+          <span class="division-index">01</span>
+          <h3>ARMA 3</h3>
+          <p>Simulações de infantaria e operações combinadas em ambiente militar de alta fidelidade, com ênfase em procedimento e comunicação.</p>
+        </div>
+      </article>
+      <article class="division reveal" data-division="fivem">
+        <div class="division-media"></div>
+        <div class="division-body">
+          <span class="division-index">02</span>
+          <h3>FIVEM</h3>
+          <p>Representação institucional em ambiente de roleplay urbano, com foco em consistência de personagem e interação entre facções.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ABOUT / HISTORY -->
+  <section class="about" id="about">
+    <div class="about-intro reveal">
+      <p class="section-label">Histórico</p>
+      <h2>De onde viemos.</h2>
+      <p class="body-lg">Nossa trajetória foi construída dentro de diferentes guarnições de simulação. Cada etapa deixou uma marca na forma como organizamos a companhia hoje — e nenhuma delas representa vínculo real com qualquer instituição.</p>
+    </div>
+
+    <figure class="fullbleed reveal">
+      <img src="https://res.cloudinary.com/ratgintk/image/upload/f_auto,q_auto/image2_1" alt="Registro histórico de simulação institucional" loading="lazy">
+    </figure>
+
+    <!-- INTERACTIVE PANELS -->
+    <div class="panels" id="panels">
+      <button class="panel" data-panel="eb" aria-expanded="false">
+        <img src="https://res.cloudinary.com/ratgintk/image/upload/v1794173885/Kaiowa_32.png" alt="" loading="lazy">
+        <div class="panel-overlay"></div>
+        <h3 class="panel-title">EXÉRCITO<br>BRASILEIRO</h3>
+        <p class="panel-text">Nossa história passa pela atuação do grupo em guarnições de simulação inspiradas no Exército Brasileiro. Foi nesse ambiente que construímos experiências marcantes, fortalecemos a confiança entre os integrantes e desenvolvemos nosso espírito de equipe. Mais do que uma representação, essa etapa faz parte da trajetória que compartilhamos.</p>
+      </button>
+      <button class="panel" data-panel="pf" aria-expanded="false">
+        <img src="https://res.cloudinary.com/ratgintk/image/upload/v1794174077/Kaiowa_77.png" alt="" loading="lazy">
+        <div class="panel-overlay"></div>
+        <h3 class="panel-title">POLÍCIA<br>FEDERAL</h3>
+        <p class="panel-text">A atuação do grupo em guarnições de simulação inspiradas na Polícia Federal marcou outra etapa importante da nossa trajetória. Foi uma experiência de cooperação e compromisso, que aproximou os integrantes e deixou aprendizados e lembranças que fazem parte da identidade do grupo.</p>
+      </button>
+      <button class="panel" data-panel="outros" aria-expanded="false">
+        <img src="https://res.cloudinary.com/ratgintk/image/upload/v1794174046/Kaiowa_2.png" alt="" loading="lazy">
+        <div class="panel-overlay"></div>
+        <h3 class="panel-title">OUTROS</h3>
+        <p class="panel-text">Ao longo de nossa trajetória, também representamos outras instituições brasileiras, incluindo a Marinha do Brasil, a Força Aérea Brasileira e a Polícia Militar do Estado de São Paulo (PMESP), ampliando nossas experiências e construindo novas histórias em diferentes ambientes institucionais.</p>
+      </button>
+    </div>
+    <p class="panels-disclaimer">Representações de simulação fictícia. A KAIOWÁ não possui vínculo, autorização ou afiliação oficial com as instituições mencionadas.</p>
+
+    <figure class="fullbleed tall reveal">
+      <img src="https://res.cloudinary.com/ratgintk/image/upload/v1794173281/Kaiowa_57.png" alt="Composição institucional KAIOWÁ" loading="lazy">
+    </figure>
+  </section>
+
+  <!-- CAREERS -->
+  <section class="careers" id="careers">
+    <div class="careers-inner reveal">
+      <p class="section-label">Recrutamento</p>
+      <h2>Participar é assumir um papel.</h2>
+      <p class="body-lg">Buscamos integrantes dispostos a seguir procedimento, manter consistência e contribuir com a construção coletiva da companhia — dentro do projeto de simulação, nunca como recrutamento militar real.</p>
+      <ul class="careers-reqs">
+        <li>Disponibilidade para operações regulares</li>
+        <li>Postura e comunicação compatíveis com ambiente institucional</li>
+        <li>Disposição para seguir hierarquia e procedimento</li>
+      </ul>
+      <a href="#contact" class="hero-cta outline">Solicitar participação</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <p class="section-label">Contato</p>
+    <h2>Fale com a companhia.</h2>
+    <p class="body-lg">Canais oficiais serão disponibilizados em breve.</p>
+  </section>
+
+</main>
+
+<!-- CONTACT BAR -->
+<div class="contact-bar">
+  <span>KAIOWÁ — Projeto de simulação</span>
+  <a href="#contact">Entrar em contato →</a>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-logo">KAIOWÁ</div>
+  <nav class="footer-links">
+    <a href="#overview">About</a>
+    <a href="#divisions">Divisions</a>
+    <a href="#careers">Careers</a>
+    <a href="/faq">FAQ</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Use</a>
+  </nav>
+  <p class="footer-copy">© 2026 KAIOWÁ. Projeto fictício de simulação, sem vínculo com instituições reais.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
